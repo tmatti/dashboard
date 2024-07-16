@@ -3,7 +3,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "format": "npx prettier . --write"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
